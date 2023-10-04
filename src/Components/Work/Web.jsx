@@ -27,7 +27,7 @@ const Web = () => {
 return (
     <>
     <Canvas >
-        <OrbitControls  enableZoom={true}/>
+        <OrbitControls  enableZoom={false}/>
         <Stage  environment={'city'} intensity={0.6} >
         <ReactIcon  />
 
